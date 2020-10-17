@@ -1,10 +1,9 @@
-package com.akumo.util.annotation;
+package com.akumo.core.util.annotation;
 
 import java.lang.annotation.*;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})
-public @interface AkumoObject {
-    String name() default "";
+public @interface AkumoClass {
 }
